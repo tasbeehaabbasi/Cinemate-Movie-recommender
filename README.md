@@ -1,1 +1,1 @@
-# Cinemate---Movie-recommender
+Content-based movie recommender built on the TMDB 5000 dataset. Merges metadata (overview, genres, keywords, cast, director) into a single "tags" string, vectorizes it with scikit-learn's CountVectorizer, and ranks similarity via cosine distance. Deployed as an interactive Streamlit app with live TMDB posters and details.
